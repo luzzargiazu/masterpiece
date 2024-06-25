@@ -38,7 +38,7 @@ const Work = () => {
       <h1 className="work-title">NUESTRO TRABAJO</h1>
      
       <p className='espacio'> Lo invitamos a crearse una cuenta haciendo click en el boton&nbsp;
-            <a href="#inicio">ingresar</a>&nbsp;
+      <a className="link" href="#inicio">ingresar</a>&nbsp;
           para poder visualizar un modelo de nuestros servicios desde el POV de un Administrador
       </p>
       <p className='espacio'>¡Al crearse su cuenta va a recibir semanalmente nuestras novedades y promociones!</p>

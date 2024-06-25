@@ -5,18 +5,19 @@
   justify-content: center; /* Cambiado a center para centrar el contenido horizontalmente */
   align-items: center; /* Centra el contenido verticalmente */
   padding: 0; /* Eliminar padding innecesario */
-  background-color: #ffffff; /* Cambiado a blanco */
+  background-color: #505050; /* Cambiado a blanco */
   color: #000000; /* Cambiado a negro */
   height: calc(100vh - 100px);
   margin-top: 50px; /* Ajuste del margen superior */
 }
 
+
 .contact-left h2 {
-color: #3b3b3b;
+color: #604CC3;
     font-size: 2em;
     margin-bottom: 10px;
-
 }
+
 
 .contact-left {
   flex: auto; /* Ocupa todo el espacio disponible */
@@ -31,22 +32,16 @@ color: #3b3b3b;
 }
 
 .contact-form {
-  background-color: #C7C8CC; /* Cambiado a un tono claro para el fondo del formulario */
+  background-color: #333; /* Cambiado a un tono claro para el fondo del formulario */
   border-radius: 25px;
+ 
   padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center; /* Centra el contenido dentro del formulario */
-  align-items: center; /* Centra el contenido dentro del formulario */
+  align-items: center; 
   max-width: 770px;
   width: 100%;
-}
-
-.contact-form label {
-  margin-bottom: 20px;
-  font-size: 1em;
-  color: #704264; /* Cambiado a negro */
-  width: 100%; /* Asegura que los labels ocupen el ancho completo */
 }
 
 .contact-form input,
@@ -57,13 +52,13 @@ color: #3b3b3b;
   width: 670px;
   border-radius: 10px;
   border: #332941;
-  background-color: #E3E1D9; /* Cambiado a un tono claro */
-  color: #000000; /* Cambiado a negro */
+  background-color: #8b8a8a52; 
+  color: #ffffff; 
 }
 
 .contact-form textarea {
   height: 150px;
-  resize: none;
+  resize: none;  
 }
 
 .contact-form button {

@@ -11,6 +11,8 @@
 .title {
   font-size: 2.5em;
   margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 40px;
   background-color: #505050;
   color: #f8f8f8;
 }

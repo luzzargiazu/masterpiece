@@ -8,11 +8,13 @@
 .team-title {
     font-size: 2.5em;
     margin-bottom: 10px;
+    color: aliceblue;
 }
 
 .team-subtitle {
     font-size: 1.5em;
     margin-bottom: 40px;
+    color: aliceblue;
 }
 
 .team-gallery {

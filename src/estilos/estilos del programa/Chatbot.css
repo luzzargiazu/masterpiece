@@ -20,7 +20,7 @@
 }
 
 .chatbot-header {
-  background-color: #A0937D;
+  background-color: #604CC3;
   color: white;
   padding: 10px;
   font-size: 16px;
@@ -56,7 +56,7 @@
 }
 
 .message.bot {
-  background-color: #A0937D;
+  background-color: #7c70bd;
   color: white;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .chatbot-footer button {
-  background-color: #A0937D;
+  background-color: #7c70bd;
   color: white;
   padding: 8px 12px;
   border: none;

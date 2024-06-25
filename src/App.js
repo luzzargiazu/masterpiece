@@ -35,24 +35,24 @@ function App() {
 const Home = () => (
   <>
     <NavigationBar />
-    <section id="inicio">
+    <section className="fondo1"id="inicio">
       <Fondo />
       <Chatbot />
     </section>
-    <section className="fondo1" id="servicios">
+    <section className="fondo1"id="servicios">
       <CardsContainer />
       <CardCostos />
     </section>
-    <section id="productos">
+    <section className="fondo1"id="productos">
       <Work />
     </section>
-    <section id="equipo">
+    <section className="fondo1"id="equipo">
       <Team />
     </section>
-    <section id="contacto">
+    <section className="fondo1"id="contacto">
       <Contacto />
     </section>
-    <Footer />
+    <Footer  />
   </>
 );
 
