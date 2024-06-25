@@ -39,7 +39,7 @@ const Home = () => (
       <Fondo />
       <Chatbot />
     </section>
-    <section id="servicios">
+    <section className="fondo1" id="servicios">
       <CardsContainer />
       <CardCostos />
     </section>
