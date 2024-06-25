@@ -15,7 +15,8 @@ import Btnvolver from './Btnvolver';
 import { ModalProvider } from '../../componentes/componentes del ejemplo/ModalContextEJ'; // Importar el ModalProvider
 
 function PaginaEjemplo() {
-  return (
+  return ( 
+    
     <ModalProvider>
       <NavbarEj />
       <FondoEJ />

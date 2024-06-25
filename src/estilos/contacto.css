@@ -2,13 +2,13 @@
 
 .contact-section {
   display: flex;
-  justify-content: center; /* Cambiado a center para centrar el contenido horizontalmente */
-  align-items: center; /* Centra el contenido verticalmente */
-  padding: 0; /* Eliminar padding innecesario */
-  background-color: #505050; /* Cambiado a blanco */
-  color: #000000; /* Cambiado a negro */
+  justify-content: center; 
+  align-items: center; 
+  padding: 0; 
+  background-color: #505050; 
+  color: #000000; 
   height: calc(100vh - 100px);
-  margin-top: 50px; /* Ajuste del margen superior */
+  margin-top: 50px; 
 }
 
 
@@ -20,25 +20,25 @@ color: #604CC3;
 
 
 .contact-left {
-  flex: auto; /* Ocupa todo el espacio disponible */
+  flex: auto; 
   font-size: 1em;
-  text-align: center; /* Alineación de texto central */
+  text-align: center; 
 }
 
 .contact-right {
-  flex: 1; /* Ocupa 1 unidad de flex */
+  flex: 1; 
   display: flex;
   flex-direction: column;
 }
 
 .contact-form {
-  background-color: #333; /* Cambiado a un tono claro para el fondo del formulario */
+  background-color: #333; 
   border-radius: 25px;
  
   padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centra el contenido dentro del formulario */
+  justify-content: center; 
   align-items: center; 
   max-width: 770px;
   width: 100%;

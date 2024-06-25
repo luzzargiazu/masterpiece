@@ -5,7 +5,7 @@
 }
 
 .btn-volver {
-  background-color: #1A2130;
+  background-color: #442dc7;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -15,6 +15,6 @@
 }
 
 .btn-volver:hover {
-  background-color: #538392;
+  background-color: #7c70bd;
   color:black;
 }

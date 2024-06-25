@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   padding: 420px;
-  background-color: #333333;
+  background-color: #303030;
   color: #edf2f4;
   height: calc(100vh - 100px); /* Reduce la altura total para subir el componente */
   align-items: center;

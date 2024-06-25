@@ -7,7 +7,7 @@
   align-items: center; /* Centra verticalmente las tarjetas */
   gap: 20px;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #505050;
   min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
 }
 
@@ -27,7 +27,10 @@
 
 .box-card:hover {
   transform: scale(1.05);
-}
+    box-shadow: 0 6px 10px rgba(123, 0, 148, 0.2);
+  }
+  
+
 
 .box-content {
   padding: 20px;

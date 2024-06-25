@@ -1,15 +1,17 @@
 .card-title-texto-ej {
   margin-top: 150px;
   margin-bottom: 50px;
+
 }
 
 .card-title-texto-ej h2 {
   font-family: 'Playfair Display', serif;
   color: #ff5733;
   margin-bottom: 5px;
+  
 }
 
 .card-title-texto-ej h3 {
-  color: #666;
+  color: #ffffff;
   margin-bottom: -200px;
 }

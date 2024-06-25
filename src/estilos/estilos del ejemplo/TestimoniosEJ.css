@@ -1,6 +1,6 @@
 .testimonios-section {
   padding: 100px;
-  background-color: #333333;
+  background: linear-gradient(to bottom,#404040, #303030); 
   text-align: center;
   color: #edf2f4;
 }
