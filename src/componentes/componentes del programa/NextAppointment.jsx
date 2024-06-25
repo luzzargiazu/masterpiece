@@ -2,6 +2,8 @@
 import React, { useContext } from 'react';
 import { ModalContext } from './ModalContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../estilos/estilos del programa/prog.css';
+
 
 function NextAppointment() {
   const { handleShowModal } = useContext(ModalContext);

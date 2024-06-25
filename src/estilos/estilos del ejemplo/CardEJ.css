@@ -27,7 +27,7 @@
 
 .box-card:hover {
   transform: scale(1.05);
-    box-shadow: 0 6px 10px rgba(123, 0, 148, 0.2);
+    box-shadow: 0 6px 10px rgba(255, 255, 255, 0.2);
   }
   
 
@@ -37,7 +37,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Distribuye el contenido verticalmente */
+  justify-content: space-between; 
 }
 
 .box-content h4 {

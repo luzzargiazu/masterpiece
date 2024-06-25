@@ -30,7 +30,6 @@ html, body {
 }
 
 .servicio {
- 
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -50,9 +49,10 @@ html, body {
   text-align: center;
 }
 
-.next-appointment button {
+.btn.btn-primary {
   padding: 10px 20px;
   font-size: 16px;
+  color: indigo;
 }
 
 .news {
@@ -69,4 +69,21 @@ html, body {
   width: 50px;
   height: 50px;
   border-radius: 5px;
+}
+
+.text-center h1 {
+  margin-top: 140px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.text-center p{
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+
+.services p{
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
 }

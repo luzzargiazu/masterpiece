@@ -1,0 +1,29 @@
+.next-appointment h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; 
+  }
+  
+  .next-appointment p {
+    font-size: 1.2rem;
+    margin-bottom: 20px; 
+  }
+  
+  .next-appointment button {
+    font-size: 1.2rem;
+    margin-top: 10px; 
+    padding: 12px 24px;
+    color: indigo;
+  }
+  
+.next-appointment {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 20px;
+    margin-bottom: 15px; 
+    margin-top: 15px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto; 
+    text-align: center; 
+  }

@@ -21,7 +21,7 @@ function Programa() {
         <Header />
         <Btnvolver />
         <Chatbot />
-        <div className="row mb-4 justify-content-center">
+        <div className="services">
           <p>Servicios disponibles</p>
         </div>
         <Carousel>
