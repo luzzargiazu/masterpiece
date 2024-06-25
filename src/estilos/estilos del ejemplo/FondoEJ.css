@@ -1,0 +1,23 @@
+/* archivo: src/estilos/estilos del ejemplo/FondoEJ.css */
+.fondoej {
+  position: relative;
+  background-image: url('../../imagenes/imagenes del ejemplo/fondoEJ.png'); /* Ajusta la ruta según tu estructura de carpetas */
+  background-size: cover;
+  background-position: center;
+  height: 125vh; /* Ajusta la altura según sea necesario */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlayej {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Oscurece el fondo para mejorar la legibilidad del texto */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

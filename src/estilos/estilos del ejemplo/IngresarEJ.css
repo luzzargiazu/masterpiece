@@ -1,0 +1,78 @@
+.modal-headerEJ {
+  background-color: #c7c7c798; /* Color de fondo del encabezado del modal */
+  color: #ff5733; /* Color de texto del encabezado del modal */
+  border-bottom: none; /* Elimina la línea inferior del encabezado del modal */
+  display: flex; /* Utiliza flexbox para alinear elementos */
+  justify-content: space-between; /* Alinea los elementos al inicio y al final */
+  align-items: center; /* Centra verticalmente los elementos */
+  padding: 1rem 2rem; /* Ajusta el espaciado interno */
+}
+
+.modal-titleEJ {
+  font-weight: bold;
+  font-size: medium; /* Tamaño de fuente del título del modal */
+  margin: 0; /* Elimina el margen para un mejor ajuste */
+}
+
+.modal-bodyEJ {
+  padding: 2rem; /* Espaciado interno del cuerpo del modal */
+}
+
+.form-labelEJ {
+  font-weight: bold;
+  color: #555; /* Color del texto de las etiquetas de formulario */
+}
+
+.form-controlEJ {
+  border-radius: 0.25rem; /* Borde redondeado de los campos de formulario */
+  box-shadow: none; /* Elimina la sombra */
+  border: 1px solid #ddd; /* Borde de los campos de formulario */
+}
+
+.btn-primaryEJ {
+  background-color: #ff5733; /* Color de fondo del botón principal */
+  border: none; /* Sin borde */
+  border-radius: 0.25rem; /* Borde redondeado del botón */
+  padding: 0.5rem 1rem; /* Relleno del botón */
+  font-size: 1rem; /* Tamaño de fuente del botón */
+}
+
+.btn-primaryEJ:hover {
+  background-color: #ffffff; /* Color de fondo al pasar el ratón */
+  color: #ff5733; /* Color de texto al pasar el ratón */
+}
+
+.btn-registerEJ {
+  background-color: white; /* Color de fondo del botón de registro */
+  color: #ff5733; /* Color de texto del botón de registro */
+  border: 2px solid #ff5733; /* Borde del botón de registro */
+  border-radius: 0.25rem; /* Borde redondeado del botón de registro */
+  padding: 0.5rem 1rem; /* Relleno del botón de registro */
+  font-size: 1rem; /* Tamaño de fuente del botón de registro */
+  margin-left: 10px; /* Margen izquierdo del botón de registro */
+}
+
+.btn-registerEJ:hover {
+  background-color: #ff5733; /* Color de fondo al pasar el ratón */
+  border-color: #ff5733; /* Color del borde al pasar el ratón */
+}
+
+.btn-googleEJ {
+  background-color: white; /* Color de fondo del botón de Google */
+  color: #555; /* Color de texto del botón de Google */
+  border: 2px solid #ddd; /* Borde del botón de Google */
+  border-radius: 0.25rem; /* Borde redondeado del botón de Google */
+  padding: 0.5rem 1rem; /* Relleno del botón de Google */
+  font-size: 1rem; /* Tamaño de fuente del botón de Google */
+  width: 100%; /* Ancho completo del botón de Google */
+  margin-top: 20px; /* Margen superior del botón de Google */
+}
+
+.btn-googleEJ:hover {
+  background-color: #f1f1f1; /* Color de fondo al pasar el ratón */
+  border-color: #ccc; /* Color del borde al pasar el ratón */
+}
+
+.btn-googleEJ i {
+  margin-right: 8px; /* Espacio a la derecha del ícono dentro del botón de Google */
+}

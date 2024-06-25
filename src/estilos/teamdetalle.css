@@ -1,0 +1,51 @@
+/* Estilos para el modal del miembro del equipo */
+
+.team-member-image {
+  width: 100%;
+  max-width: 200px; /* Ancho máximo para la imagen */
+  height: auto; /* Mantener la relación de aspecto */
+  margin-bottom: 20px; /* Espacio inferior */
+  border-radius: 10px; /* Bordes redondeados */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-member-details {
+  text-align: center; /* Centrar el texto */
+}
+
+.modal-header {
+  background-color: #656170fd; /* Fondo claro para el encabezado del modal */
+  border-bottom: none; /* Sin borde inferior */
+}
+
+.modal-title {
+  font-size: 2em; /* Tamaño de fuente para el título del modal */
+  font-weight: bold; /* Título en negrita */
+}
+
+.modal-body {
+  background-color: #ffffff; /* Fondo blanco para el cuerpo del modal */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Centrar el texto */
+}
+
+.modal-body h2 {
+  font-size: 1.5em; /* Tamaño de fuente para el nombre */
+  margin-top: 15px; /* Espacio superior */
+}
+
+.modal-body p {
+  font-size: 1.2em; /* Tamaño de fuente para la descripción */
+  margin-top: 10px; /* Espacio superior */
+  color: #555; /* Color del texto de la descripción */
+}
+
+.modal-footer {
+  border-top: none; /* Sin borde superior */
+  justify-content: center; /* Centrar el contenido del pie de página */
+}
+
+
+

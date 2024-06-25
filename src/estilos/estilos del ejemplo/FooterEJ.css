@@ -1,0 +1,34 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px; /* Ajusta el padding para reducir la altura */
+    display: flex;
+    justify-content: space-between; /* Distribuye el contenido entre los extremos */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icon {
+    color: #fff;
+    font-size: 1.5em; /* Ajusta el tamaño de los iconos */
+    transition: color 0.3s;
+}
+
+.footer-icon:hover {
+    color: #007bff;
+}
+
+.footer p {
+    margin: 10;
+}

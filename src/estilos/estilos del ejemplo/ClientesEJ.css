@@ -1,0 +1,44 @@
+.clientes-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente las tarjetas */
+  gap: 20px; /* Espacio entre tarjetas */
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.cliente-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 15px;
+  width: 270px; /* Ancho fijo para cada tarjeta */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.cliente-img {
+  width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
+  height: 275px; /* Altura fija para las imágenes */
+  object-fit: cover; /* Ajustar imagen dentro del contenedor manteniendo proporciones */
+}
+
+.cliente-card p {
+  margin-top: 10px;
+  color: #333;
+  font-size: 1em;
+  transition: color 0.3s; 
+}
+.cliente-card p:hover,
+.cliente-card p:focus {
+  color: #5c2fc2; 
+}
+ 
+.clientes-section h2 {
+  color: #ff5733;
+  font-size: 2.5rem;
+  text-align: left; 
+  padding-left: 299px;
+  margin-top: 250px;
+  margin-bottom: -17px;
+
+}

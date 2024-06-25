@@ -1,0 +1,70 @@
+.testimonios-section {
+  padding: 100px;
+  background-color: #333333;
+  text-align: center;
+  color: #edf2f4;
+}
+
+.testimonios-section h2 {
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+}
+
+.testimonios-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonio-card {
+  background-color: #1a1a1a;
+  ;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Añade una transición para la animación de zoom */
+}
+
+.testimonio-card:hover {
+  transform: scale(1.05); /* Escala la tarjeta al 105% al pasar el mouse por encima */
+}
+
+.testimonio-text {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cliente-info {
+  display: flex;
+  align-items: center;
+}
+
+.cliente-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.cliente-detalles {
+  text-align: left;
+}
+
+.cliente-nombre {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cliente-rating {
+  color: #ffcc00;
+}
+
+.estrella {
+  font-size: 1em;
+}

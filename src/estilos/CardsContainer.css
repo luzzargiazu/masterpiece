@@ -1,0 +1,33 @@
+.content-wrapper {
+  padding: 50px;
+  background-color: #505050;
+  text-align: center;
+}
+
+.content-header {
+  margin-bottom: 40px;
+  background-color: #505050;
+  color: #fff;
+}
+
+.content-header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.content-header p {
+  color: #ffff;
+  background-color: #505050;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 25px;
+  justify-content: center;
+  background-color: #333;
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 50px;
+}

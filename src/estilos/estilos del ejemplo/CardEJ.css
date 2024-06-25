@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra horizontalmente las tarjetas */
+  align-items: center; /* Centra verticalmente las tarjetas */
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+}
+
+.box-card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  width: 300px; /* Ancho fijo para cada tarjeta */
+  height: 550px; /* Alto fijo para cada tarjeta */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: left;
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.box-card:hover {
+  transform: scale(1.05);
+}
+
+.box-content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribuye el contenido verticalmente */
+}
+
+.box-content h4 {
+  color: #ccc;
+  font-size: 1.2em;
+}
+
+.box-content h2 {
+  color: #fff;
+  font-size: 1.8em;
+  margin: 10px 0;
+}
+
+.box-content h3 {
+  color: #aaa;
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.box-content a {
+  color: #ff5733;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.box-image {
+  width: 100%;
+  height: 200px; /* Altura fija para las imágenes */
+  object-fit: cover;
+}

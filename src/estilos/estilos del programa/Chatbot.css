@@ -1,0 +1,111 @@
+/* Estilos CSS para el componente Chatbot */
+
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+  font-size: 16px;
+  transition: max-height 0.3s ease;
+  max-height: 500px; /* Altura máxima del chatbot cuando está abierto */
+}
+
+.chatbot {
+  max-width: 300px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.chatbot-header {
+  background-color: #A0937D;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbot-header .chevron {
+  transition: transform 0.3s ease;
+}
+
+.chatbot-body {
+  padding: 10px;
+  max-height: 300px; /* Altura máxima del cuerpo del chatbot cuando está cerrado */
+  overflow-y: auto; /* Permitir scroll vertical cuando el contenido excede la altura máxima */
+  transition: max-height 0.3s ease;
+}
+
+.message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  word-wrap: break-word; /* Asegura que los mensajes largos se envuelvan */
+}
+
+.message.user {
+  background-color: #e5e5ea;
+  color: #333;
+}
+
+.message.bot {
+  background-color: #A0937D;
+  color: white;
+}
+
+.chatbot-footer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  transition: max-height 0.3s ease;
+}
+
+.chatbot-footer textarea {
+  flex: 1;
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 16px;
+}
+
+.chatbot-footer button {
+  background-color: #A0937D;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chatbot-footer button:hover {
+  background-color: #ffffff;
+  color: #3c3f3b;
+}
+
+/* Ajustes adicionales para el despliegue del chatbot */
+.chatbot-container.open {
+  max-height: 500px; /* Altura máxima del chatbot cuando está abierto */
+}
+
+.chatbot-container.closed {
+  max-height: 60px; /* Altura mínima del chatbot cuando está cerrado */
+}
+
+.chatbot-container.open .chatbot-body {
+  max-height: 300px; /* Ajustar según la misma altura máxima que en el estado abierto */
+}
+
+.chatbot-container.open .chatbot-footer {
+  max-height: auto; /* Permitir que el footer crezca según el contenido */
+}

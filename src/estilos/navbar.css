@@ -1,0 +1,31 @@
+/* src/estilos/navbar.css */
+
+.navbar {
+  background-color: #f8f9fa; /* Fondo claro para la navbar */
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #000;
+  cursor: pointer; /* Añadido para el cursor pointer */
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #604CC3; /* Color azul para enlaces activos y al pasar el ratón */
+}
+
+.navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.1); /* Botón del toggler */
+}
+
+.navbar-toggler-icon {
+  color: rgba(0, 0, 0, 0.5); /* Icono del toggler */
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}

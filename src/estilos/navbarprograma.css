@@ -1,0 +1,39 @@
+/* navbarPrograma.css */
+
+.navbar.bg-body-tertiary {
+  background-color: #f8f9fa; /* Ejemplo de color de fondo personalizado */
+}
+
+.navbar .navbar-brand {
+  color: #343a40; /* Ejemplo de color de texto personalizado */
+}
+
+.navbar .nav-link {
+  color: #343a40; /* Ejemplo de color de enlace personalizado */
+}
+
+.navbar .nav-link:hover {
+  color: #604CC3; /* Ejemplo de color de enlace al pasar el ratón */
+}
+
+.navbar .dropdown-menu {
+  background-color: #ffffff; /* Ejemplo de color de fondo del menú desplegable */
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #f8f9fa; /* Ejemplo de color de fondo del elemento al pasar el ratón */
+}
+
+.navbar .form-control {
+  margin-right: 0.5rem; /* Ejemplo de margen derecho del input */
+}
+
+.navbar .btn-outline-success {
+  color: #28a745; /* Ejemplo de color del botón */
+  border-color: #28a745; /* Ejemplo de color del borde del botón */
+}
+
+.navbar .btn-outline-success:hover {
+  background-color: #28a745; /* Ejemplo de color de fondo del botón al pasar el ratón */
+  color: #fff; /* Ejemplo de color de texto del botón al pasar el ratón */
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.contact-section {
+  display: flex;
+  justify-content: center; /* Cambiado a center para centrar el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  padding: 0; /* Eliminar padding innecesario */
+  background-color: #ffffff; /* Cambiado a blanco */
+  color: #000000; /* Cambiado a negro */
+  height: calc(100vh - 100px);
+  margin-top: 50px; /* Ajuste del margen superior */
+}
+
+.contact-left h2 {
+color: #3b3b3b;
+    font-size: 2em;
+    margin-bottom: 10px;
+
+}
+
+.contact-left {
+  flex: auto; /* Ocupa todo el espacio disponible */
+  font-size: 1em;
+  text-align: center; /* Alineación de texto central */
+}
+
+.contact-right {
+  flex: 1; /* Ocupa 1 unidad de flex */
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form {
+  background-color: #C7C8CC; /* Cambiado a un tono claro para el fondo del formulario */
+  border-radius: 25px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra el contenido dentro del formulario */
+  align-items: center; /* Centra el contenido dentro del formulario */
+  max-width: 770px;
+  width: 100%;
+}
+
+.contact-form label {
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: #704264; /* Cambiado a negro */
+  width: 100%; /* Asegura que los labels ocupen el ancho completo */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  width: 670px;
+  border-radius: 10px;
+  border: #332941;
+  background-color: #E3E1D9; /* Cambiado a un tono claro */
+  color: #000000; /* Cambiado a negro */
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact-form button {
+  padding: 10px;
+  border: 2px solid #604CC3;
+  background-color: transparent;
+  color: #604CC3;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 55px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #7776B3;
+  color: #ffffff;
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.contact-section-alt {
+  display: flex;
+  justify-content: space-between;
+  padding: 420px;
+  background-color: #333333;
+  color: #edf2f4;
+  height: calc(100vh - 100px); /* Reduce la altura total para subir el componente */
+  align-items: center;
+  margin-top: -90px; /* Ajusta este valor para subir o bajar la sección */
+}
+
+.contact-left-alt {
+  flex: 1;
+  text-align: left;
+}
+
+.contact-left-alt h2 {
+  font-size: 4.5em;
+  margin-bottom: 2.5px;
+  font-family: 'Playfair Display', serif;
+}
+
+.contact-left-alt p {
+  font-size: 1.5em;
+}
+
+.contact-right-alt {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form-alt {
+  background-color: #1a1a1a;
+  border-radius: 25px;
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-alt label {
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: #edf2f4;
+}
+
+.contact-form-alt input,
+.contact-form-alt textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #29292c;
+  color: #edf2f4;
+}
+
+.contact-form-alt textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact-form-alt button {
+  padding: 10px;
+  border: 2px solid #ff5733;
+  background-color: transparent;
+  color: #ff5733;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-form-alt button:hover {
+  background-color: #ff5733;
+  color: #ffffff;
+}

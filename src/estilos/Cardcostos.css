@@ -1,0 +1,165 @@
+  .card-costos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cartas-container {
+  display: flex;
+  gap: 20px;
+}
+
+.carta {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  height: 700px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+}
+
+.carta h2 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #604CC3;
+}
+
+.carta p {
+  font-size: 16px;
+  color: #666;
+}
+.carta ul {
+  list-style-type: none;
+  padding: 0;
+}
+.carta li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contratar-btn {
+  background-color: #81689D;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.contratar-btn:hover {
+  background-color: #bda6d8;
+}
+
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content1 {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 450px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-form {
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.modal-form input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.modal-form button {
+  background-color: #81689D;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-form button:hover {
+  transition: background-color 0.3s ease;
+  background-color: #5a3b7e;
+}
+.h3 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #332941;
+}
+.h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #604CC3  ;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+

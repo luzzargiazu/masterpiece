@@ -1,0 +1,72 @@
+/* programa.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.carousel-item {
+  
+  justify-content: space-around; /* Espaciado uniforme entre los elementos */
+}
+
+.col-md-4 {
+  max-width: 300px; /* Ajusta el ancho máximo de las columnas */
+}
+
+.servicio {
+ 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px; /* Agrega margen entre los servicios */
+}
+
+.servicio img {
+  width: 100%;
+  height: auto;
+}
+
+.next-appointment {
+  text-align: center;
+}
+
+.next-appointment button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.news {
+  margin-top: 20px;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.news-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}

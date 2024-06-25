@@ -1,0 +1,23 @@
+.card-title-texto-ej2 {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding-left: 250px;
+  padding-right: 177px;
+  font-family: 'Playfair Display', serif;
+}
+
+.card-title-texto-ej2 h2 {
+  font-size: 2rem;
+  margin-top: -150px;
+  margin-bottom: 4px;
+  text-align: left; 
+  color: #00ADB5; 
+}
+
+.card-title-texto-ej2 h3 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+

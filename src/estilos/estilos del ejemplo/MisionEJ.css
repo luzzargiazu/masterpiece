@@ -1,0 +1,36 @@
+.mision-container {
+  color: white;
+  text-align: center;
+  padding: 45px;
+}
+
+.mision-content h2 {
+  font-size: 4rem; /* Ajusta el tamaño según sea necesario */
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700; /* Peso de fuente válido para bold */
+}
+
+.mision-content p {
+  font-size: 1.7rem; /* Ajusta el tamaño según sea necesario */
+  margin-bottom: 55px;
+  text-align: center; /* Centra el texto para una mejor visualización */
+  padding: 0 110px; /* Agrega algo de padding para que el texto no esté pegado a los bordes */
+}
+
+.saber-mas-btn {
+  background-color: #ff5733; /* Color del botón */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 50px; /* Corregido el border-radius */
+  font-size: 1rem;
+  transition: background-color 0.1s ease, color 0.1s ease, border 0.1s ease, transform 0.1s ease;
+}
+
+.saber-mas-btn:hover {
+  background-color: transparent; /* Hacer el fondo transparente al pasar el mouse */
+  color: #ffffff; /* Cambiar el color del texto para que sea visible */
+  border: solid #ffffff; 
+  transform: scale(1.1); /* Aumentar ligeramente el tamaño al hacer hover */
+}
